@@ -17,7 +17,8 @@ public class NMMS_SchoolLoginPage
 		PageFactory.initElements(driver, this);
 	}
 	public void enterusname() 
-	{
+	{       
+                System.out.println(" this is new branch ");
 		username.sendKeys("");
 	}
 }
